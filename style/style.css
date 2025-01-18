@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Parkinsans:wght@300..800&display=swap');
+
+*{
+    padding :0px;
+    margin: 0px;
+}
+
+/*essential fonts and colors*/
+.heading-font{
+    font-family: "Fira Sans", serif;
+    color: #0E0E0E;
+}
+
+
+
+/*navigation bar design*/
+
+.navigation-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    height: 100px;
+}
+
+
+.navigation{
+    padding: 30px 30px;
+    font-weight: bold;
+    font-size: 32px;
+
+}
+
+.btn-nav{
+   
+    border-radius: 8px;
+    padding: 30px;
+    color: #006A50;
+    border-color: #006A50;
+}
