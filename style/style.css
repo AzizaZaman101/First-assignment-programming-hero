@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Parkinsans:wght@300..800&display=swap');
 
-*{
-    padding :0px;
-    margin: 0px;
-}
+ /**{
+    margin-right: 153px;
+    margin-left:153px ;
+} */
 
 /*essential fonts and colors*/
 .heading-font{
@@ -11,30 +11,137 @@
     color: #0E0E0E;
 }
 
+.btn-regular{
+    background-color: #006A50;
+    border-style: none;
+    border-radius: 8px;
+    text-align: center;
+    color: #FFFFFF;
 
+}
+
+.main-heading{
+    font-family: "Fira Sans", serif;
+    color: #0E0E0E;
+    font-weight: bold;
+    font-size: 38px;
+}
+
+.card-heading{
+    font-family: "Fira Sans", serif;
+    color: #0E0E0E;
+    opacity: 80%;
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 30px;
+}
+
+.card-description{
+    font-family: "Fira Sans", serif;
+    color: #0E0E0E;
+    opacity: 70%;
+    font-weight: bold;
+    font-size: 15px;
+}
 
 /*navigation bar design*/
 
 .navigation-header{
+    padding: 0px 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: auto;
-    height: 100px;
+    width: 1385px;
+    height: 112px;
 }
 
 
 .navigation{
-    padding: 30px 30px;
+    padding: 0px 30px;
     font-weight: bold;
-    font-size: 32px;
-
+    font-size: 22px;
+    width: 213px;
 }
 
 .btn-nav{
-   
+    background-color: #F5F5F5;
     border-radius: 8px;
-    padding: 30px;
     color: #006A50;
     border-color: #006A50;
+    height: 49px;
+    width: 111px;
+    text-align: center;
+}
+
+
+
+/*Main banner*/
+
+.banner{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin-bottom: 76px;
+}
+.banner-bd{
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    width: 1228px;
+    height: 537px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 62px;
+}
+
+.explanation{
+    width: 598px;
+    height: 313px;
+}
+
+.explanation-pic{
+    width: 456px;
+    height: 384px;
+    float: right;
+
+}
+
+.exp-para{
+    opacity: 50%;
+    font-weight: 550;
+    margin-bottom: 15px;
+}
+
+.banner-header{
+    font-weight: bold;
+    font-size: 54.5px;
+    margin-bottom: 23px;
+}
+
+.btn-banner{
+    font-family: "Fira Sans", serif;
+    width: 260px;
+    height: 53px;
+}
+
+/*Pillars of BD*/
+
+.pillars-of-bd{
+    width: 1228px;
+    height: 537px; 
+}
+
+.pillars{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 23px;
+}
+
+.pillars-card{
+    width: 289px;
+    height: 234px;
+    padding:23px 23px;
+    background-color: #dfdcdc;
+    border-style: inherit;
+    border-radius: 15px;
 }
