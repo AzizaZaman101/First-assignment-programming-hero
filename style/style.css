@@ -13,11 +13,21 @@
 
 .btn-regular{
     background-color: #006A50;
+    font-family: "Fira Sans", serif;
     border-style: none;
     border-radius: 8px;
     text-align: center;
     color: #FFFFFF;
 
+}
+
+.btn:hover,.first-btn:hover, .second-btn:hover, .third-btn:hover{
+    background-color: #f8fbfa;
+    font-family: "Fira Sans", serif;
+    border-style: none;
+    border-radius: 8px;
+    text-align: center;
+    color: #006a50;
 }
 
 .main-heading{
@@ -46,20 +56,20 @@
 /*navigation bar design*/
 
 .navigation-header{
-    padding: 0px 70px;
+   
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 1385px;
+    width: 1360px;
     height: 112px;
 }
 
 
 .navigation{
-    padding: 0px 30px;
+    padding-left: 150px;
+    font-family: "Fira Sans", serif;
     font-weight: bold;
     font-size: 22px;
-    width: 213px;
 }
 
 .btn-nav{
@@ -72,7 +82,14 @@
     width: 111px;
     text-align: center;
 }
-
+.btn-nav:hover{
+    background-color: #006a50;
+    font-family: "Fira Sans", serif;
+    border-style: none;
+    border-radius: 8px;
+    text-align: center;
+    color: hsl(0, 0%, 98%);
+}
 
 
 /*Main banner*/
@@ -135,6 +152,7 @@
     display: flex;
     justify-content: space-evenly;
     gap: 23px;
+    /*margin: 30px 0px;*/
     margin: 30px 0px;
 }
 
@@ -148,6 +166,12 @@
 }
 
 /*Visions-Of-BD*/
+
+
+.visions-of-bd{
+    width: 1228px;
+    height: 734px; 
+}
 
 .vision-cards{
     width: 394px;
@@ -191,17 +215,29 @@
     background-color: #5490F5;
 }
 
+
 .second-btn{
     background-color: #09A15C;
 }
+
 .third-btn{
     background-color: #FFC239;
 }
 
+
+
+/* Quotation one*/
+
 .quote{
-    padding: 46px;
-    height: 245px;
+    padding-top: 46px;
+    padding-bottom: 46px;
+    padding-left: 23px;
+    padding-right: 23px;
+    height: 150px;
+    background-color:hsla(0, 0%, 72%, 0.158);
     border-color: #0E0E0E;
+    border-radius: 8px;
+    margin-bottom: 76px;
 }
 
 .quote-img{
@@ -211,12 +247,95 @@
 
 .quote-yunus{
 
+    font-family: "Fira Sans", serif;
+    font-size: 15px;
+    opacity: 80%;
+    padding-bottom: 11px;
 }
 
 .name-yunus{
-
+    font-family: "Fira Sans", serif;
+    font-weight: 490;
+    font-size: 19px;
 }
 
 .job-yunus{
+    font-family: "Fira Sans", serif;
+    font-size: 15px;
+    opacity: 60%;
+}
 
+/* Questions*/
+
+.questions{
+    width: 1228px;
+    height: 461px; 
+}
+
+.questions-are{
+    width: 1228px;
+    height: 340px; 
+    background-color:hsla(0, 0%, 72%, 0.158);
+    padding: 23px;
+}
+
+table{
+    text-align: left;
+    border: 1px solid hsl(0, 1,5,15%);
+    font-family: "Fira Sans", serif;
+}
+
+.header-of-table{
+    padding: 23px 23px;
+    height: 69px;
+    color: #0E0E0E;
+    font-size: 19px;
+    font-weight: 490;
+    background-color: #C6E4D6;
+    border-collapse: collapse;
+    border-color: none;
+}
+
+.normal-rows{
+    height: 88px;
+    background-color: #ffffff;
+    border: 1px solid hsl(0, 1,5,15%);
+    font-size: 15px;
+}
+
+.col-1{
+    width: 976px;
+    padding: 23px 23px;
+    font-weight: 490;
+}
+
+.col-2{
+    width: 192px;
+    padding: 23px 23px;
+}
+
+#options{
+    padding: 9px 13px;
+    background-color: #C6E4D6;
+    font-family: "Fira Sans", serif;
+    font-size: 15px;
+    font-weight: 450;
+}
+
+#options:hover{
+    background-color: #76be9d;
+    color: #FFFFFF;
+}
+
+/*News*/
+
+.news-banner{
+    width: 1228px;
+    height: 1349px;
+}
+
+.news-left{
+    height: 385px;
+    background-color: #dfdcdc4a;
+    
 }
