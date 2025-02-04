@@ -21,7 +21,7 @@
 
 }
 
-.btn:hover,.first-btn:hover, .second-btn:hover, .third-btn:hover{
+.btn:hover,.first-btn:hover, .second-btn:hover, .third-btn:hover, .regular-btn:hover{
     background-color: #f8fbfa;
     font-family: "Fira Sans", serif;
     border-style: none;
@@ -293,7 +293,6 @@ table{
     font-weight: 490;
     background-color: #C6E4D6;
     border-collapse: collapse;
-    border-color: none;
 }
 
 .normal-rows{
@@ -331,11 +330,206 @@ table{
 
 .news-banner{
     width: 1228px;
-    height: 1349px;
+    height: 1450px;
+}
+
+.news-final{
+    width: 714px;
+    height: 350px;
 }
 
 .news-left{
-    height: 385px;
+    height: 330px;
     background-color: #dfdcdc4a;
+    padding: 46px 46px;
+    border-radius: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 23px;
     
+}
+
+.news-right{
+    height: 330px;
+    background-color: #dfdcdc4a;
+    padding: 46px 46px;
+    border-radius: 23px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 23px;
+}
+
+
+.news-heading{
+    font-family: "Fira Sans", serif;
+    color: #0E0E0E;
+    opacity: 80%;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 11px;
+}
+
+.description-news{
+    font-family: "Fira Sans", serif;
+    color: #0E0E0E;
+    opacity: 70%;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 12px;
+}
+
+.regular-btn{
+    width: 133px;
+    height: 46px;
+    background-color: #006A50;
+    font-family: "Fira Sans", serif;
+    border-style: none;
+    border-radius: 8px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 18px;
+}
+
+.regular-btn:hover{
+    background-color: #FFFFFF;
+    color: #006A50;
+    border: 3px solid #006A50;
+    border-radius: 8px;
+}
+
+.news-img-all{
+    height: 293px;
+    width: 391px;
+    border-radius: 23px;
+}
+
+.news-img-icon{
+    height: 38px;
+    width: 128px;
+}
+
+.date-time{
+    display: inline-flex;
+    gap: 11px;
+}
+
+/*Donation*/
+
+.donation{
+    width: 1228px;
+    height: 550px; 
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.amount{
+    padding: 30px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.donation-amount{
+    width: 253px;
+    height: 122px; 
+    text-align: center;
+    background-color: #dfdcdc4a;
+    padding-top: 61px;
+    border-style: none;
+    border-radius: 15px;
+}
+
+.donation-amount:hover{
+
+    background-color: #C6E4D6;
+    padding-top: 61px;
+    border-style: none;
+    border-radius: 15px;
+}
+
+.write-amount{
+    width: 990px;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: "Fira Sans", serif;
+    font-size: 18px;
+    color: #0E0E0E;
+    opacity: 30%;
+}
+
+.other-section{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/*Footer*/
+
+.contact{
+    width: 1228px;
+    height: 379px; 
+    background-color: #C6E4D6;
+    border-radius: 23px;
+    display: flex;
+    justify-content: center;
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+.main-footer{
+    width: 720px;
+    height: 225px; 
+}
+
+.text-div{
+    gap: 15px;
+    text-align: center;
+}
+
+.drop-name{
+    padding: 23px 23px;
+    display: inline-flex;
+    gap: 0px;
+}
+
+
+.write-name{
+    width: 580px;
+    height: 50px;
+    padding-left: 30px;
+    border-style: none;
+    border-bottom-left-radius:8px;
+    border-top-left-radius: 8px;
+}
+
+
+.btn-last{
+    width: 140px;
+    height: 52px;
+    background-color: #006A50;
+    font-family: "Fira Sans", serif;
+    border-style: none;
+    border-bottom-right-radius:8px;
+    border-top-right-radius: 8px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.btn-last:hover{
+    background-color: #ffffff;    
+    color: #006A50;
+    border: 3px solid #006A50;
+    border-bottom-right-radius:8px;
+    border-top-right-radius: 8px;
+}
+
+.promise{
+    text-align: center;
 }
